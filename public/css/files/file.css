@@ -1,0 +1,65 @@
+.file {
+    display: inline;
+    border: 2px solid rgba(54, 69, 79, 0.1);
+    border-radius: 5%;
+    background: rgba(192,197,206, 0.2);
+    float: left;
+    width: 10em;
+    height: 10em;
+    margin: 1% 1.5%;
+    padding: 1em;
+    transition: 0.5s;
+}
+
+.file:hover {
+    background: rgba(192,197,206, 0.4);
+}
+
+.file p {
+    word-wrap: break-word;
+    font-size: 0.8em;
+}
+
+#file-create form {
+    margin: 1% 0 1% 39%;
+    display: none;
+}
+
+#file-create p {
+    text-align: center;
+    cursor: pointer;
+}
+
+#show {
+    text-align: center;
+    cursor: pointer;
+    color: rgba(66, 139, 202, 1);
+}
+
+#show:hover {
+    text-decoration: underline;
+}
+
+#file-dwn, #file-dl {
+    display: inline;
+    float: right;
+    margin: 0.2em -0.3em 0 0.5em;
+    color: #111;
+    background: rgba(192,197,206, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 1em;
+}
+
+#file-dwn i, #file-dl i {
+    transition-duration: 0.4s;
+}
+
+#file-dwn i:hover, #file-dl i:hover {
+    font-weight: bold;
+}
+
+#file-dl {
+    margin: 0.2em 0.2em 0 0.3em;
+}
